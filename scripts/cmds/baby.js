@@ -29,7 +29,7 @@ module.exports = {
     name: "baby",
     aliases: ["bby"],
     version: "0.0.7",
-    author: "Azadx69x",
+    author: "Aliexe⁷",
     countDown: 0,
     role: 0,
     description: "Teach and chat with Baby API",
@@ -109,7 +109,7 @@ module.exports = {
       if (!trigger) return;
       const text = original.slice(trigger.length).trim();
       if (!text) {
-        const random = ["😚", "🫣", "😍", "Yes baby😀, I am here 🐥", "What's up? 🫤", "Bolo jaan ki korte pari tomar jonno 🐥"];
+        const random = ["সর এন্তে", "আজকে আমার মন ভালো নেই", "আলী বসের কোলে শুয়ে ছিলাম ডাকলি কেন 😤😠", "Yes baby😀, I am here 🐥", "What's up? 🫤", "Bolo jaan ki korte pari tomar jonno 🐥","আমায় না ডেকে আমার বস আলী কে ডাকো","আমায় যেহেতু ডাকলি আমার এডমিন কে GF দাও"];
         return send(message, event, random[Math.floor(Math.random() * random.length)]);
       }
       if (/^(?:teach|remove|edit|msg|list)\b/i.test(text)) return;
